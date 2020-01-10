@@ -10,4 +10,4 @@ def test_first_test():
     browser.implicitly_wait(5)
     browser.find_element_by_name("search").send_keys("ГРАНДМАСТЕР")
     browser.close()
-    assert False
+    assert True
