@@ -4,7 +4,7 @@ from time import sleep
 
 
 def test_first_test():
-    browser = webdriver.Chrome(executable_path='../chromedriver')
+    browser = webdriver.Chrome(executable_path='/home/ITRANSITION.CORP/b.serebryakov/PycharmProjects/CircleCi/chromedriver')
     browser.maximize_window()
     browser.get("https://ru.wikipedia.org/wiki/")
     browser.implicitly_wait(5)
