@@ -29,6 +29,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
+            del test-results
             mkdir test-results
             pytest --junitxml=test-results/junit.xml
       - store_artifacts:
