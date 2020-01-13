@@ -4,7 +4,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 def test_first_test():
-    browser = webdriver.Chrome(ChromeDriverManager().install())
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+    browser = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
     browser.maximize_window()
     browser.get("https://ru.wikipedia.org/wiki/")
     browser.implicitly_wait(5)
