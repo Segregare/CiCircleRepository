@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="3.035"><testcase classname="tests.test_Class" file="tests/test_Class.py" line="5" name="test_first_test" time="2.9059741497039795"></testcase></testsuite>
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="2.794"><testcase classname="tests.test_Class" file="tests/test_Class.py" line="5" name="test_first_test" time="2.732274055480957"></testcase></testsuite>
